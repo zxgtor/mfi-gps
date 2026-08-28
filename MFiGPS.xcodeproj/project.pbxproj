@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* MFiGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* MFiGPSApp.swift */; };
+		A10000000000000000000002 /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Experiment.swift */; };
+		A10000000000000000000003 /* LocationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* LocationMonitor.swift */; };
+		A10000000000000000000004 /* AccessoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* AccessoryMonitor.swift */; };
+		A10000000000000000000005 /* AddressResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AddressResolver.swift */; };
+		A10000000000000000000006 /* GPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* GPXDocument.swift */; };
+		A10000000000000000000007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* ContentView.swift */; };
+		A10000000000000000000008 /* AddressTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* AddressTestView.swift */; };
+		A10000000000000000000009 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* DiagnosticsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* MFiGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFiGPSApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* LocationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMonitor.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* AccessoryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryMonitor.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AddressResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressResolver.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* GPXDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXDocument.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* AddressTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTestView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* MFiGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFiGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000B /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* MFiGPS */,
+				B1000000000000000000000B /* project.yml */,
+				D10000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* MFiGPS */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* MFiGPSApp.swift */,
+				D10000000000000000000003 /* Models */,
+				D10000000000000000000004 /* Services */,
+				D10000000000000000000005 /* Utilities */,
+				D10000000000000000000007 /* Views */,
+			);
+			path = MFiGPS;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (B10000000000000000000002 /* Experiment.swift */,);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000003 /* LocationMonitor.swift */,
+				B10000000000000000000004 /* AccessoryMonitor.swift */,
+				B10000000000000000000005 /* AddressResolver.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (B10000000000000000000006 /* GPXDocument.swift */,);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (B1000000000000000000000A /* MFiGPS.app */,);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* ContentView.swift */,
+				B10000000000000000000008 /* AddressTestView.swift */,
+				B10000000000000000000009 /* DiagnosticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* MFiGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MFiGPS" */;
+			buildPhases = (
+				C10000000000000000000003 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				C10000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = MFiGPS;
+			productName = MFiGPS;
+			productReference = B1000000000000000000000A /* MFiGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = { E10000000000000000000001 = { CreatedOnToolsVersion = 16.0; }; };
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "MFiGPS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* MFiGPS */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* MFiGPSApp.swift in Sources */,
+				A10000000000000000000002 /* Experiment.swift in Sources */,
+				A10000000000000000000003 /* LocationMonitor.swift in Sources */,
+				A10000000000000000000004 /* AccessoryMonitor.swift in Sources */,
+				A10000000000000000000005 /* AddressResolver.swift in Sources */,
+				A10000000000000000000006 /* GPXDocument.swift in Sources */,
+				A10000000000000000000007 /* ContentView.swift in Sources */,
+				A10000000000000000000008 /* AddressTestView.swift in Sources */,
+				A10000000000000000000009 /* DiagnosticsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F20000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MFi GPS Lab";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This experiment records the system location to determine whether iOS is using an external location source.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxgtor.mfigps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MFi GPS Lab";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This experiment records the system location to determine whether iOS is using an external location source.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxgtor.mfigps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "MFiGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (F20000000000000000000001 /* Debug */, F20000000000000000000002 /* Release */,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MFiGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (F20000000000000000000003 /* Debug */, F20000000000000000000004 /* Release */,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}
